@@ -1,6 +1,8 @@
 package com.example.dashboard.repository;
 
 import com.example.dashboard.domain.Article;
+import com.example.dashboard.domain.QArticle;
+import com.example.dashboard.repository.querydsl.ArticleRepositoryCustom;
 import com.querydsl.core.types.dsl.DateTimeExpression;
 import com.querydsl.core.types.dsl.StringExpression;
 import org.springframework.data.domain.Page;

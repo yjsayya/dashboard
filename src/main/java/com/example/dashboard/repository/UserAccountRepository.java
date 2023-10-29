@@ -1,6 +1,7 @@
 package com.example.dashboard.repository;
 
 import com.example.dashboard.domain.UserAccount;
+import com.example.dashboard.domain.projection.UserAccountProjection;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 

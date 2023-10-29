@@ -1,5 +1,7 @@
 package com.example.dashboard.controller;
 
+import com.example.dashboard.dto.request.ArticleCommentRequest;
+import com.example.dashboard.dto.security.BoardPrincipal;
 import com.example.dashboard.service.ArticleCommentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

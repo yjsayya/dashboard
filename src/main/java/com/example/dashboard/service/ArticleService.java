@@ -1,14 +1,14 @@
 package com.example.dashboard.service;
 
-import com.example.projectboard.domain.Article;
-import com.example.projectboard.domain.Hashtag;
-import com.example.projectboard.domain.UserAccount;
-import com.example.projectboard.domain.constant.SearchType;
-import com.example.projectboard.dto.ArticleDto;
-import com.example.projectboard.dto.ArticleWithCommentsDto;
-import com.example.projectboard.repository.ArticleRepository;
-import com.example.projectboard.repository.HashtagRepository;
-import com.example.projectboard.repository.UserAccountRepository;
+import com.example.dashboard.domain.Article;
+import com.example.dashboard.domain.Hashtag;
+import com.example.dashboard.domain.UserAccount;
+import com.example.dashboard.domain.constant.SearchType;
+import com.example.dashboard.dto.ArticleDto;
+import com.example.dashboard.dto.ArticleWithCommentsDto;
+import com.example.dashboard.repository.ArticleRepository;
+import com.example.dashboard.repository.HashtagRepository;
+import com.example.dashboard.repository.UserAccountRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

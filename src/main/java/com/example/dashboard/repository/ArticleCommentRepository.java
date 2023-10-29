@@ -1,6 +1,7 @@
 package com.example.dashboard.repository;
 
 import com.example.dashboard.domain.ArticleComment;
+import com.example.dashboard.domain.QArticleComment;
 import com.querydsl.core.types.dsl.DateTimeExpression;
 import com.querydsl.core.types.dsl.StringExpression;
 import org.springframework.data.jpa.repository.JpaRepository;
